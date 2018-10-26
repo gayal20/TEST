@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Testing') {
       steps {
-        sh 'Sleep 5'
+        sh 'sleep 5'
         sh 'echo Tests Completed!'
       }
     }
